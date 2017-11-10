@@ -29,7 +29,6 @@ body, html{
      left: 10px;
      width: 170px;
      height: 188px;
-
  }
 
 .sidebar ul{
@@ -55,25 +54,6 @@ header{
     font-size: 40px;
     padding-left: 30px;
     padding-top: 5px;
-}
-
-#trSearch{
-    display: block;
-    width: 50%;
-    float: left;
-    padding-top: 30px;
-    margin: auto;
-}
-
-#trSearch input[type=text] {
-    width: 80%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: monospace;
-    background-color: white;
-    padding: 14px 20px 12px 40px;
 }
 
 #trLogo{
@@ -103,24 +83,26 @@ footer{
     left: 20px;
 }
 
-#albumBlurb{
-    height: 100x;
+#albumBlurb{ 
     width: 400px;
-    position: relative;
+    position: absolute;
     background: rgba(204,204,204, 0.6);
     padding-bottom: 0px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 0px;
-    bottom: 180px;
-    right: 10px;
-    float: right;
+    bottom: 435px;
+    right: 195px;    
 }
 
 #albumBlurb h2, p{
     font-family: monospace;
     font-size: 12px;
     text-align: justify;
+}
+
+#bannerContainer{
+    margin-bottom: -55px;
 }
 
 #banner{
@@ -137,9 +119,94 @@ footer{
 .mainContent{
     padding-bottom: 100px;
     margin-left: 200px;
+    margin-right: 200px;
     width: 80%;
+}
+
+#newsBox{
+    overflow: hidden;
+    background: rgba(204,204,204, 0.2);
+    margin-bottom: 20px;
+}
+
+#newsBox img{
+    display: block;
+    max-width: 80%;
+    height: auto;
     margin: auto;
-    background: rgba(204,204,204, 0.6);
+    border-radius: 5px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+#content1{
+    display: block;
+    width: 47%;
+    float: left;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#content2{
+    display: block;
+    width: 47%;
+    float: right;
+    word-wrap: break-word;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+
+#aboutUs{
+    width: 1200px;
+    margin: auto;
+}
+
+#aboutUs h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#aboutUs h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+}
+
+#aboutUs p{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Courier New";
+}
+
+#aboutUs img{
+    display: block;
+    margin: auto;
+}
+
+#aboutUsText{
+    display: block;
+    width: 1160px;
+    background: rgba(204,204,204, 0.2);
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#aboutUsText img{
+    border-radius: 5px;
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#whiteText{
+    color: #fff;
+    font-weight: 800;
 }
 
 #footOne{
