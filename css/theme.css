@@ -24,7 +24,7 @@ body, html{
     cursor: pointer;
 }
 
- .sidebar {
+.sidebar {
      position: fixed;
      left: 10px;
      width: 170px;
@@ -75,6 +75,7 @@ footer{
     background: #ccc;
     margin-top: -100px;
     display: block;
+    clear: both;
 }
 
 #bannerText{
@@ -250,9 +251,190 @@ footer{
     color: #000;
 }
 
+#newRelText{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding-left: 100px;
+}
+
+#newRelText h1{
+    display: inline-block;
+}
+
+#newRelText p{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    padding-top: 15px;
+}
+
+#albumContainer{
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.albumsThird{
+    display: inline-block;
+    width: 33%;
+}
+
+.albumBox{
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    background: rgba(204,204,204, 0.1);
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    
+}
+
+.albumBox img{
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+.albumBoxPrice{
+    text-align: right;
+}
+
+#contactPage{
+    margin-bottom: 20px;
+}
+
+#contactPage img{
+    display: block;
+    margin: auto;
+}
+
+#contactForm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    background: rgba(204,204,204, 0.5);
+    padding: 20px;
+    
+}
+
+#artistFocus{
+    width: 1200px;
+    margin: auto;
+}
+
+#artistFocus img{
+    display: block;
+    margin: auto;
+}
+
+#artistInterview{
+    display: block;
+    width: 1160px;
+    background: rgba(204,204,204, 0.2);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#artistInterview img{
+    border-radius: 5px;
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+#jjInterview{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+#jjInterview h3{
+    font-family: monospace;
+    font-size: 25px;
+    color: #fff;
+}
+
+#jjInterview h4{
+    font-family: monospace;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+}
+
+#jjInterview p{
+    font-family: monospace;
+    font-size: 14px;
+    color: #000;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+input[type=submit]:hover {
+    background-color: #262626;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+label{
+    font-family: monospace;
+    font-size: 16px;
+}
+
 h1{
     color: white;
     font-family: monospace;
+}
+
+h6{
+    color: #fff;
+    font-family: monospace;
+    font-size: 16px;
 }
 
 ul {
