@@ -205,7 +205,7 @@ footer{
     margin: auto;
 }
 
-#whiteText{
+.whiteText{
     color: #fff;
     font-weight: 800;
 }
